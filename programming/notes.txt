@@ -1,0 +1,8 @@
+What's the smallest amount of steps (additions, deletions, and replacing) it would take to make the string "massivegargantuanhugeepicginormous" into "tinysmallmicroscopicinvisible"?
+
+# pip install python-Levenshtein
+import Levenshtein as L
+L.distance('massivegargantuanhugeepicginormous', 'tinysmallmicroscopicinvisible')
+
+********************************************
+
