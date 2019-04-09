@@ -5,3 +5,8 @@ if(strcmp($PASSWORD, $_GET['password']) == 0){
 ===>  We can bypass this by supplying an array named password, instead of a variable, which will always return 0 in the strcmp function.
 link.com/?password[]=bla
 **********************************************
+
+preg_match 
+=> preg_match function compare regular espression and input of user.
+but if input value is array it fail to compare.
+also, it doesn't take in count '\n'
